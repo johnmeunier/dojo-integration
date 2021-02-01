@@ -2,7 +2,7 @@
 
 ## Dojo 1 : from scratch
 
-![](dojo1.png)
+![](dojo1/dojo1.png)
 
 * Sans toolkit
 * Sans less ni sass
@@ -46,7 +46,7 @@
 
 ## Dojo 2 : PEMA x surcharge toolkit
 
-![](dojo2.png)
+![](dojo2/dojo2.png)
 
 ### Composant toolkit utiles
 - [Checkbox Switch](https://axaguildev.github.io/react-toolkit/latest/storybook/?path=/story/form-input-checkbox--checkboxitem-toggle) 
