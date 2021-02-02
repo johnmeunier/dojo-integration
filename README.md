@@ -61,11 +61,14 @@
 * Récupération des composants du toolkit
   - https://axaguildev.github.io/react-toolkit/latest/design/index.html#/
 * Comment surcharger un composant du toolkit
+* Titre
+ - Le toolkit propose déjà des titres tout fait ?
 * Stepper
   - Fond
   - Espacement
   - Taille
   - Fond rond
+  - Dans la pratique, sans toolkit donc : display flex, size, découpe, etc
 * Input
   - Séparation hr
   - Label à gauche, input à droite
