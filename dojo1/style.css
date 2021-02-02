@@ -5,6 +5,7 @@
   --secondary: #666666;
   --white: #fff;
   --sizeLogo: 60px;
+  --error: red;
 }
 
 body {
@@ -39,14 +40,16 @@ body {
   background-color: var(--background);
   border-bottom: 1px solid var(--border);
   width: 100%;
-  display: block;
   padding: calc(var(--sizeLogo) / 2) 0px;
   margin-bottom: 100px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
   position: relative;
+}
+
+.user__header--error {
+  background-color: var(--error);
 }
 
 .user__header-content {
