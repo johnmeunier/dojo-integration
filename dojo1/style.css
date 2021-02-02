@@ -1,3 +1,133 @@
+:root {
+  --border: #e7e7e7;
+  --background: #f1f1f1;
+  --primary: #3032c1;
+  --secondary: #666666;
+  --white: #fff;
+  --sizeLogo: 60px;
+}
+
 body {
-  background-color: peru;
+  color: var(--secondary);
+  width: 100%;
+}
+
+.icon {
+  width: 1rem;
+  height: 1rem;
+  margin-right: 10px;
+}
+
+.icon-phone {
+  filter: invert(41%) sepia(10%) saturate(7%) hue-rotate(84deg) brightness(93%) contrast(94%);
+}
+
+.icon-arrow {
+  filter: invert(26%) sepia(40%) saturate(4056%) hue-rotate(229deg) brightness(78%) contrast(108%);
+}
+
+.user {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 100;
+  text-align: center;
+  border: 1px solid var(--border);
+  width: 90%;
+  margin: 50px auto;
+}
+
+.user__header {
+  background-color: var(--background);
+  border-bottom: 1px solid var(--border);
+  width: 100%;
+  display: block;
+  padding: calc(var(--sizeLogo) / 2) 0px;
+  margin-bottom: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.user__header-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: absolute;
+  text-align: center;
+  top: calc(var(--sizeLogo) / 2);
+}
+
+.user__header-logo {
+  width: var(--sizeLogo);
+  height: var(--sizeLogo);
+  border-radius: 50%;
+  background-color: var(--primary);
+  margin: 0px auto 5px auto;
+}
+.user__header-info {
+}
+.user__header-name {
+  color: var(--primary);
+  font-weight: 900;
+  margin-bottom: 5px;
+}
+.user__header-category {
+}
+
+.user__info {
+  margin-bottom: 5px;
+  padding: 0px 10px 10px 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.user__info-phone {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  font-weight: 900;
+}
+
+.user__info-more {
+  color: var(--primary);
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+  font-size: 0.8rem;
+}
+
+.user__info-more:hover {
+  text-decoration: underline;
+}
+
+.user__contact {
+  border: 1px solid var(--primary);
+  color: var(--primary);
+  padding: 20px 30px;
+  background-color: var(--white);
+  transition: all 0.3 ease-in-out;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 900;
+}
+.user__contact img {
+  margin-left: 40px;
+}
+
+.user__contact:hover {
+  background-color: var(--primary);
+  color: var(--white);
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.user__contact:hover img {
+  filter: invert(100%) sepia(0%) saturate(7482%) hue-rotate(218deg) brightness(109%) contrast(105%);
 }
