@@ -1,25 +1,12 @@
-import logo from './logo.svg';
-import './App.css';
+import { Dojo2 } from "./Dojo2";
+// SCSS Toolkit
+import "@axa-fr/react-toolkit-all/dist/style/af-toolkit-core.css";
+import "@axa-fr/react-toolkit-core/dist/assets/fonts/icons/af-icons.css";
+
+import "./App.scss";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+  return <Dojo2></Dojo2>;
 }
 
 export default App;
